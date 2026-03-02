@@ -189,4 +189,4 @@ claude-code skills install */
 
 ## Contributing
 
-These skills are in the public domain. Modify, improve, and share freely.
+MIT licensed — modify, improve, and share freely. Pull requests welcome at [github.com/OmarSkalli/skills](https://github.com/OmarSkalli/skills).
