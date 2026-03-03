@@ -29,4 +29,4 @@ Fundamental principles that guide implementation decisions in this project.
 - Enforcement: {Linting/CI/manual}
 
 ---
-These beliefs inform all design decisions. See [[../ARCHITECTURE.md]] for how they're applied.
+These beliefs inform all design decisions. See [../ARCHITECTURE.md](../ARCHITECTURE.md) for how they're applied.

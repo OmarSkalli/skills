@@ -46,11 +46,11 @@ High-level system architecture and component overview.
 
 ## Key Decisions
 
-See [[docs/design-docs/]] for detailed architectural decisions.
+See [docs/design-docs/](docs/design-docs/) for detailed architectural decisions.
 
 Major decisions:
-- {Decision 1}: [[docs/design-docs/decision-1]]
-- {Decision 2}: [[docs/design-docs/decision-2]]
+- {Decision 1}: [docs/design-docs/decision-1](docs/design-docs/decision-1.md)
+- {Decision 2}: [docs/design-docs/decision-2](docs/design-docs/decision-2.md)
 
 ## Constraints & Trade-offs
 
@@ -60,4 +60,4 @@ Major decisions:
 - **Maintainability**: {How we keep this maintainable}
 
 ---
-For detailed design decisions, see [[docs/design-docs/index]]
+For detailed design decisions, see [docs/design-docs/index](docs/design-docs/index.md)

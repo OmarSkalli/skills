@@ -218,7 +218,7 @@ After initializing structure:
 
 ## Notes
 
-- All templates use Obsidian-style wiki links: `[[file]]`
+- All templates use GitHub-compatible Markdown links: `[file](file.md)`
 - Templates use placeholder format: `{PlaceholderName}`
 - Dates use ISO 8601 format: `YYYY-MM-DD`
 - Status indicators use emojis: ✅ 🚧 📋 💡 ⏸️ ❌

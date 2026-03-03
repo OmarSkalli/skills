@@ -68,4 +68,4 @@ Design standards and patterns for this project.
 {What we log and at what levels}
 
 ---
-For implementation details, see [[design-docs/core-beliefs]]
+For implementation details, see [design-docs/core-beliefs](design-docs/core-beliefs.md)

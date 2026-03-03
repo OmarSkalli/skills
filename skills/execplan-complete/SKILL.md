@@ -109,7 +109,7 @@ If gaps were identified, add them to `docs/exec-plans/tech-debt.md`:
 - Impact: {What's affected or limited}
 - Context: {Why this trade-off was made}
 - Proposed fix: {How to address it eventually}
-- Related: [[completed/{execplan-name}]] - where this originated
+- Related: [completed/{execplan-name}](completed/{execplan-name}.md) - where this originated
 - Date logged: {YYYY-MM-DD}
 ```
 
@@ -154,9 +154,9 @@ Add entry to `FEATURES.md`:
 
 **{Feature Name}**
 
-- Spec: [[docs/product-specs/{feature}]]
-- Design: [[docs/design-docs/{design}]] (if applicable)
-- Execution: [[docs/exec-plans/completed/{execplan-name}]]
+- Spec: [docs/product-specs/{feature}](docs/product-specs/{feature}.md)
+- Design: [docs/design-docs/{design}](docs/design-docs/{design}.md) (if applicable)
+- Execution: [docs/exec-plans/completed/{execplan-name}](docs/exec-plans/completed/{execplan-name}.md)
 - Status: ✅ Production (or 🧪 Experimental, 🚧 Beta)
 - Shipped: {YYYY-MM-DD}
 ```

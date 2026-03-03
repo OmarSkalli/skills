@@ -106,7 +106,7 @@ Tell the user:
 
 {User-visible behavior this enables, in plain language. Focus on what end users will be able to do, not technical details.}
 
-Related spec: [[../product-specs/{feature}]]  (if applicable)
+Related spec: [../product-specs/{feature}](../product-specs/{feature}.md)  (if applicable)
 
 ## Progress
 

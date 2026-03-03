@@ -75,7 +75,7 @@ Catalogue of all product specifications.
 
 | Title              | Status     | Owner   | Updated      | Summary         |
 | ------------------ | ---------- | ------- | ------------ | --------------- |
-| [[{feature-slug}]] | 📋 Planned | {owner} | {YYYY-MM-DD} | {brief summary} |
+| [{feature-slug}]({feature-slug}.md) | 📋 Planned | {owner} | {YYYY-MM-DD} | {brief summary} |
 ```
 
 If index exists, add row to appropriate table:
@@ -207,9 +207,9 @@ Explicitly NOT included in this spec:
 
 ## Related Documents
 
-- Vision: [[../VISION.md]]
-- Design Doc: [[../design-docs/{related-design}]] (if applicable)
-- Execution Plan: [[../exec-plans/active/{feature}]] (when created)
+- Vision: [../VISION.md](../VISION.md)
+- Design Doc: [../design-docs/{related-design}](../design-docs/{related-design}.md) (if applicable)
+- Execution Plan: [../exec-plans/active/{feature}](../exec-plans/active/{feature}.md) (when created)
 
 ---
 
@@ -285,7 +285,7 @@ For simpler features, use this shorter version:
 **After creating spec:**
 
 - Use `execplan` skill to create execution plan referencing this spec
-- Execution plan will link back: `Spec: [[docs/product-specs/{feature}]]`
+- Execution plan will link back: `Spec: [docs/product-specs/{feature}](docs/product-specs/{feature}.md)`
 
 **Before creating spec:**
 

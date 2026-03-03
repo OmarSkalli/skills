@@ -43,4 +43,4 @@ How we'll know we're succeeding:
 - {Metric 3}
 
 ---
-This vision informs all product and technical decisions. See [[docs/design-docs/core-beliefs]] for how these principles translate to implementation.
+This vision informs all product and technical decisions. See [docs/design-docs/core-beliefs](docs/design-docs/core-beliefs.md) for how these principles translate to implementation.

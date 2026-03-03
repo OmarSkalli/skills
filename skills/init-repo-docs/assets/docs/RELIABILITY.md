@@ -50,13 +50,13 @@ Reliability principles and practices for this project.
 {If applicable: how on-call is structured}
 
 ### Runbooks
-- [[runbooks/{incident-type-1}]]
-- [[runbooks/{incident-type-2}]]
+- [runbooks/{incident-type-1}](runbooks/{incident-type-1}.md)
+- [runbooks/{incident-type-2}](runbooks/{incident-type-2}.md)
 
 ### Post-Mortem Process
 1. {Step 1}
 2. {Step 2}
-3. Document in [[incidents/{YYYY-MM-DD}]]
+3. Document in [incidents/{YYYY-MM-DD}](incidents/{YYYY-MM-DD}.md)
 
 ## Deployment Safety
 
@@ -72,4 +72,4 @@ Reliability principles and practices for this project.
 {How feature flags are used for gradual rollout}
 
 ---
-See [[SECURITY.md]] for security-specific reliability requirements.
+See [SECURITY.md](SECURITY.md) for security-specific reliability requirements.

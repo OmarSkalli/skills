@@ -6,7 +6,7 @@ Catalogue of all design documents.
 
 | Title | Status | Author | Date | Summary |
 |-------|--------|--------|------|---------|
-| [[core-beliefs]] | ✅ Verified | {author} | {YYYY-MM-DD} | Core principles guiding implementation |
+| [core-beliefs](core-beliefs.md) | ✅ Verified | {author} | {YYYY-MM-DD} | Core principles guiding implementation |
 | {Design doc name} | 🚧 Draft | {author} | {YYYY-MM-DD} | {Brief summary} |
 
 ## Completed Designs

@@ -8,7 +8,7 @@ Known technical debt and areas for improvement.
 - Impact: {What breaks or is limited}
 - Context: {Why this exists}
 - Proposed fix: {How to address it}
-- Related: [[completed/{execplan}]] - where this originated
+- Related: [completed/{execplan}](completed/{execplan}.md) - where this originated
 
 ## Medium Priority
 

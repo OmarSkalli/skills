@@ -9,33 +9,33 @@ Brief description of this project and its purpose.
 ## Documentation Map
 
 ### Architecture & Design
-- [[ARCHITECTURE.md]] - System structure, components, and layering
-- [[docs/design-docs/index]] - Technical design decisions and proposals
-- [[docs/design-docs/core-beliefs]] - Core principles guiding this project
+- [ARCHITECTURE.md](ARCHITECTURE.md) - System structure, components, and layering
+- [docs/design-docs/index](docs/design-docs/index.md) - Technical design decisions and proposals
+- [docs/design-docs/core-beliefs](docs/design-docs/core-beliefs.md) - Core principles guiding this project
 
 ### Product & Features
-- [[FEATURES.md]] - Index of implemented features
-- [[docs/product-specs/index]] - Product requirements and specifications
+- [FEATURES.md](FEATURES.md) - Index of implemented features
+- [docs/product-specs/index](docs/product-specs/index.md) - Product requirements and specifications
 
 ### Planning & Execution
-- [[docs/exec-plans/active/]] - Current work in progress
-- [[docs/exec-plans/completed/]] - Historical execution plans
-- [[docs/exec-plans/tech-debt]] - Known technical debt
+- [docs/exec-plans/active/](docs/exec-plans/active/) - Current work in progress
+- [docs/exec-plans/completed/](docs/exec-plans/completed/) - Historical execution plans
+- [docs/exec-plans/tech-debt](docs/exec-plans/tech-debt.md) - Known technical debt
 
 ### Standards & Guidelines
-- [[docs/DESIGN.md]] - Design principles and patterns
-- [[docs/QUALITY_SCORE.md]] - Quality tracking by domain
-- [[docs/RELIABILITY.md]] - Reliability standards
-- [[docs/SECURITY.md]] - Security principles
+- [docs/DESIGN.md](docs/DESIGN.md) - Design principles and patterns
+- [docs/QUALITY_SCORE.md](docs/QUALITY_SCORE.md) - Quality tracking by domain
+- [docs/RELIABILITY.md](docs/RELIABILITY.md) - Reliability standards
+- [docs/SECURITY.md](docs/SECURITY.md) - Security principles
 
 ## Contributing
 
 When working on this project:
 
-1. Start with [[ARCHITECTURE.md]] to understand system structure
-2. Check [[docs/exec-plans/active/]] for current work
-3. Review [[docs/design-docs/core-beliefs]] for guiding principles
-4. Follow patterns documented in [[docs/DESIGN.md]]
+1. Start with [ARCHITECTURE.md](ARCHITECTURE.md) to understand system structure
+2. Check [docs/exec-plans/active/](docs/exec-plans/active/) for current work
+3. Review [docs/design-docs/core-beliefs](docs/design-docs/core-beliefs.md) for guiding principles
+4. Follow patterns documented in [docs/DESIGN.md](docs/DESIGN.md)
 
 ## For Agents
 
