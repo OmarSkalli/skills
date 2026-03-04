@@ -1,6 +1,6 @@
 # Skills
 
-Claude Code skills for software engineering workflows, following the [Agent Skills](https://agentskills.io/) standard.
+Claude Code and Codex skills for software engineering workflows, following the [Agent Skills](https://agentskills.io/) standard.
 
 ## Skills
 
@@ -31,7 +31,7 @@ Skills for the harness engineering pattern — an agent-first approach where doc
 bin/install.sh
 ```
 
-The installer scans `skills/`, shows a preview of what will be installed or updated, and copies everything to `~/.claude/skills/`. Relaunch any running Claude instances after installing.
+The installer scans `skills/`, shows a preview of what will be installed or updated, and copies everything to both `~/.claude/skills/` and `${CODEX_HOME:-~/.codex}/skills/`. Relaunch any running Claude or Codex instances after installing.
 
 ## Contributing
 
