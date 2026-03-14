@@ -9,6 +9,7 @@ Claude Code and Codex skills for software engineering workflows, following the [
 | Skill | Description |
 |---|---|
 | `commit` | Stage and commit changes with atomic, well-structured messages |
+| `merge-branch` | Squash merge a feature branch into main with an auto-generated commit message |
 | `pull-request` | Run quality checks, write a meaningful PR description, and open a draft PR |
 | `pr-checklist` | Run lint, format, type check, tests, and repo-specific gates before a PR |
 
