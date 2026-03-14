@@ -87,11 +87,20 @@ Use the comprehensive template below. Fill all 12 sections:
 
 Tell the user:
 
+**Before starting execution:**
+- If on the main branch, create a feature branch first:
+  ```bash
+  git checkout -b <initials>-<feature-name>
+  ```
+  Branch name format: initials (e.g. `os` for Omar Skalli) + hyphen + feature slug (e.g. `os-implement-user-auth`)
+
 **During execution:**
 - Update Progress section with timestamps after each milestone
 - Log decisions as they're made
 - Document surprises immediately
 - Append artifacts (diffs, error messages) to Artifacts section
+- After each milestone: run `/simplify` to review and clean up changed code before moving on
+- If `.husky/pre-commit` exists, ensure it passes before proceeding to the next milestone
 
 **After completion:**
 - Fill Outcomes & Retrospective
@@ -401,6 +410,22 @@ CREATE TABLE sessions (
 ````
 
 ## During Execution
+
+### Branch Setup
+
+Before starting, check the current branch. If on `main`, create a feature branch:
+
+```bash
+git checkout -b <initials>-<feature-name>
+# e.g. git checkout -b os-implement-user-auth
+```
+
+Branch format: `<initials>-<feature-name>` where initials come from the developer's full name (e.g. `os` for Omar Skalli).
+
+### After Each Milestone
+
+1. Run `/simplify` to review changed code for quality, reuse, and efficiency — fix any issues before proceeding.
+2. If `.husky/pre-commit` exists in the repo, run it (or trigger it via a test commit) and ensure it passes.
 
 ### Updating Progress
 
