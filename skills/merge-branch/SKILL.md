@@ -32,8 +32,8 @@ Squash merge the current feature branch into a target branch (default: `main`).
    git checkout <target-branch>
    git merge --squash <feature-branch>
    git commit -m "<generated message>"
-   git checkout <feature-branch>   # return to original branch
    ```
+   - Stay on `<target-branch>` after the merge
    - Show result with `git log --oneline -n 3`
 
 ## Critical Constraints
@@ -45,7 +45,7 @@ Squash merge the current feature branch into a target branch (default: `main`).
 - Include Co-author or Claude attribution in the commit message
 
 **Always:**
-- Return to the original feature branch after merging
+- Stay on the target branch after merging
 - Write the commit message as if the user wrote it (imperative mood, no AI attribution)
 - Abort if the current branch is already the target branch
 
