@@ -4,6 +4,12 @@ Claude Code and Codex skills for software engineering workflows, following the [
 
 ## Skills
 
+### Issue tracking
+
+| Skill | Description |
+|---|---|
+| `linear-ticket` | Implement a Linear ticket end-to-end: fetch → branch → execplan → build → commit → PR |
+
 ### Git workflow
 
 | Skill | Description |
