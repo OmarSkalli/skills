@@ -66,6 +66,8 @@ cat package.json  # or requirements.txt, go.mod, etc.
 
 This context fills the "Context and Orientation" section.
 
+If `docs/REVIEW-CHECKLIST.md` exists, read it now to understand repo best practices and quality gates. Use this to inform acceptance criteria and note any checklist items this feature will need to satisfy.
+
 ### Step 3: Create ExecPlan File
 
 Create file at `docs/exec-plans/active/{feature-slug}.md`.
@@ -280,11 +282,9 @@ npm test -- auth.test.ts
 
 {Each criterion should be verifiable by running commands above}
 
-### PR Checklist Notes
+### Review Checklist Notes
 
-Before opening a PR, run the `pr-checklist` skill. Note any feature-specific checks this work requires (beyond the standard `docs/PR-CHECKLIST.md`):
-
-Before opening a PR, run the `pr-checklist` skill. Review `docs/PR-CHECKLIST.md` during planning and note any feature-specific checks this work requires:
+Before opening a PR, run the `code-review` skill. Review `docs/REVIEW-CHECKLIST.md` during planning and note any feature-specific checks this work requires:
 
 {e.g. "This feature adds a new env var — ensure .env.example is updated"}
 

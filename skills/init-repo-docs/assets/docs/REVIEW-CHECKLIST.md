@@ -1,6 +1,6 @@
-# PR Checklist
+# Review Checklist
 
-Repo-specific checks to run before opening a pull request. Used by the `pr-checklist` skill alongside universal checks (lint, format, type check, tests).
+Repo-specific checks to run before opening a pull request. Used by the `code-review` skill alongside universal checks (lint, format, type check, tests).
 
 ## How to Use
 

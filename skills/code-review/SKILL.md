@@ -1,24 +1,24 @@
 ---
-name: pr-checklist
-description: Run pre-PR checks before opening a pull request for review. Use when the user or an agent is ready to open a PR and wants to verify quality gates pass. Runs universal checks (lint, format, tests, type check) and repo-specific checks defined in docs/PR-CHECKLIST.md.
+name: code-review
+description: Run pre-PR checks before opening a pull request for review. Use when the user or an agent is ready to open a PR and wants to verify quality gates pass. Runs universal checks (lint, format, tests, type check) and repo-specific checks defined in docs/REVIEW-CHECKLIST.md.
 ---
 
-# PR Checklist
+# Code Review
 
 Run all quality checks before opening a pull request.
 
 ## Overview
 
-This skill combines universal checks with repo-specific checks defined in `docs/PR-CHECKLIST.md`. It runs what can be automated, prompts for what requires judgment, and blocks the PR if critical checks fail.
+This skill combines universal checks with repo-specific checks defined in `docs/REVIEW-CHECKLIST.md`. It runs what can be automated, prompts for what requires judgment, and blocks the PR if critical checks fail.
 
 ## Workflow
 
 ### Step 1: Read Repo-Specific Checklist
 
-Check if `docs/PR-CHECKLIST.md` exists:
+Check if `docs/REVIEW-CHECKLIST.md` exists:
 
 ```bash
-cat docs/PR-CHECKLIST.md
+cat docs/REVIEW-CHECKLIST.md
 ```
 
 If it doesn't exist, proceed with universal checks only and suggest initializing it with the `init-repo-docs` skill.
@@ -57,7 +57,7 @@ For each command:
 
 ### Step 3: Run Repo-Specific Checks
 
-Read each item from `docs/PR-CHECKLIST.md`:
+Read each item from `docs/REVIEW-CHECKLIST.md`:
 
 - If the item includes a command — run it and report result
 - If the item requires human judgment — prompt with the question and wait for confirmation
@@ -70,14 +70,14 @@ Verify that documentation affected by this PR has been updated:
 - [ ] `AGENTS.md` updated if new entry points, commands, or structure changed
 - [ ] `ARCHITECTURE.md` updated if system structure changed
 - [ ] `FEATURES.md` updated if a user-facing feature was added (or will be updated via `execplan-complete`)
-- [ ] `docs/PR-CHECKLIST.md` updated if new check categories are needed for this feature
+- [ ] `docs/REVIEW-CHECKLIST.md` updated if new check categories are needed for this feature
 
 ### Step 5: Report Summary
 
 Present a final summary:
 
 ```
-## PR Checklist Results
+## Code Review Checklist Results
 
 ### Universal Checks
 ✅ Lint — passed
@@ -114,7 +114,7 @@ Return the full checklist summary for use by the `pull-request` skill, or presen
 
 **Repo-specific file is the source of truth:**
 - Universal checks can be overridden if the repo uses different tooling
-- If a universal check doesn't apply, document why in `docs/PR-CHECKLIST.md`
+- If a universal check doesn't apply, document why in `docs/REVIEW-CHECKLIST.md`
 
 **Failures are information:**
 - Don't skip failures — surface them clearly

@@ -140,8 +140,8 @@ Then suggest:
 - `completed/` - Historical execution plans
 - `tech-debt.md` - Known technical debt tracker
 
-**docs/PR-CHECKLIST.md**
-- Repo-specific checks run by the `pr-checklist` skill before opening PRs
+**docs/REVIEW-CHECKLIST.md**
+- Repo-specific checks run by the `code-review` skill before opening PRs
 - Customize with project toolchain commands and feature-specific gates
 
 **docs/references/**
@@ -192,7 +192,7 @@ Then suggest:
     │   ├── completed/
     │   └── tech-debt.md
     ├── references/        # Optional
-    ├── PR-CHECKLIST.md
+    ├── REVIEW-CHECKLIST.md
     ├── DESIGN.md
     ├── QUALITY_SCORE.md   # Full only
     ├── RELIABILITY.md     # Full only
